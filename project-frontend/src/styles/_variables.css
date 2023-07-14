@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+:root {
+  --login-signup-right-side: linear-gradient(
+    90deg,
+    rgba(29, 45, 80, 1) 0%,
+    rgba(30, 95, 116, 1) 28%,
+    rgba(252, 218, 183, 1) 97%
+  );
+  --main-dark-blue-color: #1d2d50;
+  --beige: #fcdab7;
+  --green-ocean-color: #1e5f74;
+  --dark-blue: #133b5c;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}

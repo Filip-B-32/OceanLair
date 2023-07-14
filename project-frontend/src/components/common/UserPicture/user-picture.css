@@ -1,0 +1,36 @@
+@import "../../../styles/styles.css";
+
+.user-profile-wrapper {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60px;
+  cursor: pointer;
+}
+
+.user-profile-wrapper:hover {
+  transform: scale(0.95);
+}
+
+.active-circle {
+  width: 15px;
+  height: 15px;
+  background-color: #00b847;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 53px;
+  margin-top: -3px;
+}
+
+.user-profile-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.user-profile-name {
+  color: var(--beige);
+  font-size: 12px;
+}

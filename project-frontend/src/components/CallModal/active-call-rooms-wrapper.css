@@ -1,0 +1,34 @@
+@import "../../styles/styles.css";
+
+.call-rooms-wrapper {
+  width: 100%;
+  height: 90%;
+  overflow-y: auto;
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.active-call-room-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--green-ocean-color);
+  padding: 10px;
+  color: var(--beige);
+}
+
+.active-room {
+  cursor: pointer;
+}
+
+.room-call-title {
+  width: 200px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

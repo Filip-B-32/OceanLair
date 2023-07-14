@@ -1,0 +1,71 @@
+@import "../../styles/styles.css";
+
+.conversation-modal-wrapper {
+  width: 100%;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+}
+
+.conversation-modal-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  padding-left: 40px;
+  border-bottom: 1px solid gray;
+}
+
+.picture-and-name-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.chat-name-wrapper {
+  color: var(--beige);
+}
+
+.text-input-container {
+  margin: 10px;
+
+  border-top: 2px solid gray;
+  border-radius: 20px;
+  background-color: var(--green-ocean-color);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.send-input-message {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .profile-wrapper {
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+  }
+  .picture-and-name-wrapper {
+    flex-direction: column;
+  }
+}

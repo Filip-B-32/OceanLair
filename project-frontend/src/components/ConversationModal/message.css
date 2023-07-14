@@ -1,0 +1,47 @@
+@import "../../styles/styles.css";
+
+.messages-wrapper {
+  padding: 10px;
+  height: 540px;
+  overflow-y: auto;
+}
+
+.your-message-wrapper {
+  padding: 5px;
+  background-color: var(--green-ocean-color);
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.your-message-date,
+.friend-message-date {
+  color: gray;
+  margin-bottom: 3px;
+}
+
+.your-message-content,
+.friend-message-content {
+  color: white;
+}
+
+.friend-message-wrapper {
+  padding: 5px;
+  background-color: var(--main-dark-blue-color);
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.friend-message-date-and-name {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.friend-message-name {
+  color: var(--beige);
+  margin-bottom: 10px;
+}

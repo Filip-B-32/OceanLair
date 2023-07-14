@@ -1,0 +1,70 @@
+.profile-page-wrapper {
+  height: 100%;
+}
+
+.profile-page-picture-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-page-picture-content {
+  width: 180px;
+  height: 180px;
+  border-radius: 40px;
+  position: relative;
+}
+
+.profile-picture-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.data-wrapper {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name-wrapper,
+.email-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name-wrapper,
+.email-wrapper {
+  border-top: 1px solid var(--main-dark-blue-color);
+  margin-top: 25px;
+  padding-top: 15px;
+}
+
+.name-value,
+.email-value {
+  color: var(--beige);
+}
+
+input::placeholder {
+  color: #fcd9b79a;
+}
+
+input {
+  width: 100%;
+  height: 28px;
+  color: var(--beige);
+}
+
+.email-title {
+  color: rgba(128, 128, 128, 0.534);
+}
+
+.enable-disable-audio-button {
+  margin-top: 30px;
+}
+
+.enable-disable-audio-button:hover {
+  transform: scale(0.99);
+}
